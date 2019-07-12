@@ -1,0 +1,6 @@
+name: Gleb module showing railway stations in France
+description: Creates a page with map of stations
+package: Gleb
+type: module
+version: 1.0
+core: 8.x

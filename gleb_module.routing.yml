@@ -1,0 +1,14 @@
+gleb_module.content:
+  path: '/stations'
+  defaults:
+    _controller: '\Drupal\gleb_module\Controller\StationsMapBlockController::content'
+    _title: 'Stations map'
+  requirements:
+    _permission: 'access content'
+gleb_module.settings:
+  path: '/admin/structure/gleb_module/settings'
+  defaults:
+    _form: '\Drupal\gleb_module\Form\MapSettingsForm'
+    _title: 'Settings'
+  requirements:
+    _permission: 'administer site'

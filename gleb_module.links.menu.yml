@@ -1,0 +1,11 @@
+gleb_module.menu:
+  title: 'Map of stations'
+  description: 'Map of stations'
+  parent: main
+  menu_name: main
+  route_name: gleb_module.content
+gleb_module.admin:
+  title: 'Configure Gleb module'
+  description: 'Manage settings for Gleb module'
+  parent: system.admin_config_system
+  route_name: gleb_module.settings

@@ -1,0 +1,11 @@
+mapael:
+  version: 1.x
+  js:
+    mapael/raphael.min.js: {}
+    mapael/chroma.min.js: {}
+    mapael/jquery.mapael.js: {}
+    mapael/maps/france_departments.js: {}
+    mapael/script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
